@@ -108,7 +108,7 @@ void findPalindrome64(void)
 
 	// Print the rest of 64 bit palindrome numbers
 	// 11 is the only palindrome prime length even, the others have odd length.
-	// 2^64 == 18446744073709551616 : it is 20 digit length, so the biggest palindrome prime
+	// 2^64-1 == 18446744073709551615 : it is 20 digit length, so the biggest palindrome prime
 	// 64 bit is at least length 19 digit
 
 	int64_t number = 100;
