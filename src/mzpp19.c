@@ -95,7 +95,7 @@ void sieveOfErastostheneses(void)
 
 /**
  * Find and print the palindrome prime 64 bit.
- * It uses sieve[] static variable calculated from  
+ * It uses sieve[] static variable  
  */
 void findPalindrome64(void)
 {
