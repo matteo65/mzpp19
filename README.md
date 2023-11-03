@@ -1,8 +1,8 @@
 # mzpp19
 **High performance palindromic prime number generator**
 
-It finds and prints all palindrome prime between 0 and 2^64-1
-The output is in according b-files format (https://oeis.org/)
+It finds and prints all palindrome prime between 0 and 2^64-1<br>
+The output is in according b-files format (https://oeis.org/)<br>
 In order to generate the prime numbers it uses an efficient implementation of the Sieve of Eratosthenes.
 
 ## About palindrome prime numbers
