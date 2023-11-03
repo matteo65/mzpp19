@@ -1,5 +1,5 @@
 # mzpp19
-High performance palindromic prime number generator
+**High performance palindromic prime number generator**
 
 It finds and prints all palindrome prime between 0 and 2^64-1
 
