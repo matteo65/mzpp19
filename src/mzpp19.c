@@ -121,8 +121,7 @@ void findPalindrome64(void)
 		do {
 			checkPalindrome(n);
 			n += 10;
-		}
-		while(n < d);
+		} while(n < d);
 
 		// Find palindrome prime starting with 3
 		n += 2;
@@ -130,8 +129,7 @@ void findPalindrome64(void)
 		do {
 			checkPalindrome(n);
 			n += 10;
-		}
-		while(n < d);
+		} while(n < d);
 
 		// Find palindrome prime starting with 7
 		n += 4;
@@ -139,8 +137,7 @@ void findPalindrome64(void)
 		do {
 			checkPalindrome(n);
 			n += 10;
-		}
-		while(n < d);
+		} while(n < d);
 
 		// Find palindrome prime starting with 9
 		n += 2;
@@ -148,8 +145,7 @@ void findPalindrome64(void)
 		do {
 			checkPalindrome(n);
 			n += 10;
-		}
-		while(n < d);
+		} while(n < d);
 
 		number *= 100;
 	}
