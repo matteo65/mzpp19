@@ -113,7 +113,7 @@ void findPalindrome64(void)
 
 	int64_t number = 100;
 	for(int len = 3; len <= 19; len += 2) {
-		// Calculate the smallest number length len
+		// Calculate the smallest odd number length len
 		int64_t n = number + 1;
 
 		// Find palindrome prime starting with 1
