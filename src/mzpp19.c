@@ -15,7 +15,7 @@ uint32_t sqrt64(uint64_t num);
 int isPalindrome(uint64_t n);
 void sieveOfErastostheneses(void);
 void findPalindrome64(void);
-void checkPalindrome(int64_t n);
+void checkPalindrome(uint64_t n);
 
 // The sieve: every bit is a odd number, so the first bit is 1 the last bit 2^32-1
 static uint8_t sieve[268435456];
@@ -111,13 +111,13 @@ void findPalindrome64(void)
 	// 2^64-1 == 18446744073709551615 : it is 20 digit length, so the biggest palindrome prime
 	// 64 bit is at least length 19 digit
 
-	int64_t number = 100;
+	uint64_t number = 100;
 	for(int len = 3; len <= 19; len += 2) {
 		// Calculate the smallest odd number length len
-		int64_t n = number + 1;
+		uint64_t n = number + 1;
 
 		// Find palindrome prime starting with 1
-		int64_t d = number << 1;
+		uint64_t d = number << 1;
 		do {
 			checkPalindrome(n);
 			n += 10;
@@ -151,7 +151,7 @@ void findPalindrome64(void)
 	}
 }
 
-void checkPalindrome(int64_t n)
+void checkPalindrome(uint64_t n)
 {
 	if(isPalindrome(n)) {
 		// Check if n is also prime
