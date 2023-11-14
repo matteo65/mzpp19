@@ -60,11 +60,11 @@ int isPalindrome(uint64_t n)
 {
 	uint64_t reverse = 0;
 	uint64_t original = n;
-	while(n) {
+	do {
 		uint64_t r = n % 10;
 		reverse = reverse * 10 + r;
 		n /= 10;
-	}
+	} while(n);
 	return reverse == original;
 }
 
