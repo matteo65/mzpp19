@@ -38,7 +38,7 @@ uint32_t sqrt64(uint64_t num)
 	uint32_t res = 0; // result
 	uint32_t add = 1 << 31;
 
-	while(add > 0) { // 32x test and shift right
+	do { // 32x test and shift right
 		uint32_t temp = res + add;
 		uint64_t quad = temp;
 		quad *= temp;
@@ -48,6 +48,8 @@ uint32_t sqrt64(uint64_t num)
 
 		add >>= 1; // shift right the 'additional' bit
 	}
+	while(add > 0);
+
 	return res;
 }
 
