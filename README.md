@@ -13,40 +13,39 @@ Furthermore, since no prime number (except 5) ends with 5, all palindromic prime
 ## Palindrome wing prime number
 Palindromic Wing Primes (PWP) are numbers that are primes, palindromic in base 10, and consisting of one central digit surrounded by two wings having an equal amount of identical digits and different from the central one.
 The first 34 PWP are:
-1 101
-2 131
-3 151
-4 181
-5 191
-6 313
-7 353
-8 373
-9 383
-10 727
-11 757
-12 787
-13 797
-14 919
-15 929
-16 11311
-17 11411
-18 33533
-19 77377
-20 77477
-21 77977
-22 1114111
-23 1117111
-24 3331333
-25 3337333
-26 7772777
-27 7774777
-28 7778777
-29 111181111
-30 111191111
-31 777767777
-32 77777677777
-33 99999199999
-34 1111118111111
+101
+131
+151
+181
+191
+313
+353
+373
+383
+727
+757
+787
+797
+919
+929
+11311
+11411
+33533
+77377
+77477
+77977
+1114111
+1117111
+3331333
+3337333
+7772777
+7774777
+7778777
+111181111
+111191111
+777767777
+77777677777
+99999199999
+1111118111111
 
 The program mzpp23 is a optimized and fast generator of PWP, derived from mzpp19
-
