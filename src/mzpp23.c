@@ -65,7 +65,7 @@ int isPalindromeWing(uint64_t n)
 {
 	uint64_t reverse = 0;
 	uint64_t original = n;
-	uint64_t prec =  n % 10;
+	uint64_t prec = n % 10;
 	int d = 0;
 	do {
 		uint64_t r = n % 10;
