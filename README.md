@@ -48,4 +48,4 @@ The first 34 PWP are:
 99999199999
 1111118111111
 
-The program mzpp23 is a optimized and fast generator of PWP, derived from mzpp19
+The Java program PWP100 print the first 100 PWP (certainly prime until #37, probable prime the rest)
