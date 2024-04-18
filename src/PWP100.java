@@ -6,7 +6,7 @@ import java.math.BigInteger;
  * amount of identical digits and different from the central one
  * The numbers up to the 37th are certainly primes, the subsequent ones are probable primes
  * @author Matteo Zapparoli
- * 26 mar 2024
+ * 2024-3-26
  */
 public class PWP100 {
 	
